@@ -9,11 +9,11 @@ html{
 }
 body{
     overflow-x: hidden;
-     background-color: red;
+   
 }
 
 .header{
-    background-color: gray;
+     background-color: red;
     display: flex;
     justify-content: space-between;
     align-items: center;
