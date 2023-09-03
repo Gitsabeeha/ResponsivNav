@@ -13,7 +13,7 @@ body{
 }
 
 .header{
-     background-color: red;
+     background-color: yellow;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,6 +58,13 @@ body{
    }
    /* ============================small screen */
    @media( max-width:900px){
+       html{
+     overflow-x:hidden;
+}
+body{
+    overflow-x: hidden;
+   
+}
     .nav-icons{
         display: block;
     }
