@@ -58,7 +58,7 @@ body{
    }
    /* ============================small screen */
    @media( max-width:900px){
-     body {
+     body,html {
         overflow: hidden; /* Prevent scrolling on the body when the navigation menu is open */
     }
     .nav-icons{
