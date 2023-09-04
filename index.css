@@ -17,7 +17,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+
     height: 10vh;
     color: aliceblue;
 }
@@ -58,7 +58,9 @@ body{
    }
    /* ============================small screen */
    @media( max-width:900px){
-     
+     body {
+        overflow: hidden; /* Prevent scrolling on the body when the navigation menu is open */
+    }
     .nav-icons{
         display: block;
     }
